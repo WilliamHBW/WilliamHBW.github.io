@@ -126,7 +126,7 @@
             <div class="project info-unit right-list">
                 <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">RESEARCH EXPERIENCE</span></h2>
                 <hr>
-                <h3><b>Design of Compressive Sensing Based Video Codec</b></h3>
+                <h3><a href="./CS-system.pdf">Design of Compressive Sensing Based Video Codec<font size=3>[click for more detail]</font></a></h3>
                 <div>
                     <div align="left" style="float:left"><i>Osaka University/Fudan University</i></div>
                      <div align="right"><i>remote</i></div>
@@ -136,12 +136,12 @@
                      <div align="right"><i>Feb 2020 - Present</i></div>
                 </div>
                 <ul class="experience-list">
-                    <li style="margin-bottom: 2px;">Read papers about compressive sensing. Learn knowledge about convex optimization and sparse coding. Determine the approximate direction of the research independently.</li>
-                    <li style="margin-bottom: 2px;">For the decoder, use Pytorch to build a video compressive sensing reconstruction DNN model. The model is based on an iterative optimization algorithm and has the characteristic of doing motion compensation. Comparison with the state-of-the-art methods is done and proves improvements in reconstruction performance under different conditions. The paper is submitted.</li>
-                    <li style="margin-bottom: 2px;">For the encoder, assist team members in exploring the  algorithm which includes Intra-prediction for secondary compression. The algorithm can also help control the bit rate. Collaborate with team members on hardware architecture design of the encoder.</li>
+                    <li style="margin-bottom: 2px;">Read papers about compressive sensing. Determine the approximate direction of the research independently.</li>
+                    <li style="margin-bottom: 2px;">For the decoder, use Pytorch to build a video compressive sensing reconstruction DNN model. Comparison with the state-of-the-art methods is done and proves improvements in reconstruction performance under different conditions. The paper is under review.</li>
+                    <li style="margin-bottom: 2px;">For the encoder, assist team members in exploring the algorithm for secondary compression. Collaborate with team members on hardware architecture design.</li>
                 </ul>
 
-                <h3><b>High Performance H.264 Codec Chip</b></h3>
+                <h3><a href="./H264_codec.pdf">High Performance H.264 Codec Chip<font size=3>[click for more detail]</font></a></h3>
                 <div>
                     <div align="left" style="float:left"><i>Fudan University</i></div>
                      <div align="right"><i>Shanghai, China</i></div>
@@ -152,12 +152,12 @@
                 </div>
                 <ul class="experience-list">
                     <li style="margin-bottom: 2px;">The project aims to design a commercial video codec chip in cooperation with an enterprise.</li>
-                    <li style="margin-bottom: 2px;">Participated in the design of several hardware modules such as reference pixel prediction and mode selection according to H.264 codec standards.</li>
-                    <li style="margin-bottom: 2px;">Constructed the bus function model (BFM) with SystemVerilog, containing functions of random valid/ready handshake response, incentive vector generation and DUT output data check, and providing support for hardware design verification of the project.</li>
-                    <li style="margin-bottom: 2px;">Constructed reference model with SystemVerilog, verified complicated hardware modules at algorithm level, and checked the output data of the DUT.</li>
+                    <li style="margin-bottom: 2px;">Participated in the design of several hardware modules according to H.264 codec standards.</li>
+                    <li style="margin-bottom: 2px;">Constructed the bus function model (BFM) with SystemVerilog, providing support for hardware design verification of the project.</li>
+                    <li style="margin-bottom: 2px;">Constructed reference model with SystemVerilog, verified complicated hardware modules at algorithm level.</li>
                 </ul>
 
-                <h3><b>Design of Reconfigurable FFT Processor</b></h3>
+                <h3><a href="./FFT.pdf">Design of Reconfigurable FFT Processor<font size=3>[click for more detail]</font></a></h3>
                 <div>
                     <div align="left" style="float:left"><i>Fudan University</i></div>
                      <div align="right"><i>Shanghai, China</i></div>
@@ -167,9 +167,24 @@
                      <div align="right"><i>Nov 2019 - Dec 2019</i></div>
                 </div>
                 <ul class="experience-list">
-                    <li style="margin-bottom: 2px;">A configurable FFT processor using the Cooley-Turkey algorithm for frequency-by-frequency extraction was implemented using VerilogHDL. The processor can handle Fast Fourier Transformation of arbitary 2^n points.</li>
-                    <li style="margin-bottom: 2px;">The design was synthesized using the DC synthesis tool, and its performance metrics such as data throughput rate and integrated circuit area and power consumption were analyzed.</li>
-                    <li style="margin-bottom: 2px;">Theoretical analysis and experiments are used to further consider the loss of precision and the output buffer backlog problem. Consider changing the pipeline structure to an iterative structure to increase the utilization efficiency and optimize the circuit area and power consumption.</li>
+                    <li style="margin-bottom: 2px;">A configurable FFT processor using the Cooley-Turkey algorithm was implemented using Verilog. The processor can handle FFT of arbitary 2^n points.</li>
+                    <li style="margin-bottom: 2px;">The design was synthesized using the DC synthesis tool, and its performance metrics such as data throughput rate and circuit area were analyzed.</li>
+                    <li style="margin-bottom: 2px;">Theoretical analysis and experiments are used to further consider the loss of precision and the output buffer backlog problem.</li>
+                </ul>
+
+                <h3><a href="./systolic_array.pdf">Design of Systolic Array Multiplier on GF(2m) Field<font size=3>[click for more detail]</font></a></h3>
+                <div>
+                    <div align="left" style="float:left"><i>Fudan University</i></div>
+                     <div align="right"><i>Shanghai, China</i></div>
+                </div>
+                <div>
+                    <div align="left" style="float:left"><i>Advisor:Prof.Xiaoyang Zeng</i></div>
+                     <div align="right"><i>Sep 2019 - Oct 2019</i></div>
+                </div>
+                <ul class="experience-list">
+                    <li style="margin-bottom: 2px;">Determined the basic unit architecture based on the knowledge of galois field's high bits priority multiplication algorithm.</li>
+                    <li style="margin-bottom: 2px;">Designed systolic array multiplier with parallel-bits input. Used systolic array projection to get pipline architecture.</li>
+                    <li style="margin-bottom: 2px;">Used DC compiler to do asic synthesization and evaluated the performance of the design. Exploited the use of different projection vectors to further improve the performance.</li>
                 </ul>
             </div>
             <div class="trophy info-unit">
